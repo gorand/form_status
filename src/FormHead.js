@@ -65,10 +65,10 @@ export default class FormHead extends Component {
   }
 
   handleChangeInput(e) {
-    this.showValidate(e.target.value)
+    this.showValidate(e.target.value);
     this.setState({
       status: e.target.value
-    })
+    });
   }
 
   handleKeyInput(e) {
